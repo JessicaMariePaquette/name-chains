@@ -1,3 +1,7 @@
+img{
+	width: 100%;
+}
+
 main{
 	background-color:#E4FFFD;
 
@@ -6,6 +10,8 @@ main{
 	color:#46697D;
 	font-family: 'Nunito', sans-serif;
 	text-align: center;
+	font-size: 1.2rem;
+	line-height: 3rem;
 	}
 
 	h1{
@@ -15,7 +21,9 @@ main{
 	font-style: italic;
 	text-align:center;
 	font-size: 12rem;
+	width: 50;
 	}
+
 
 	h2{
 	color:#FF7BAC;
