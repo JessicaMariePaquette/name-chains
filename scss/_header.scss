@@ -1,0 +1,60 @@
+
+header{
+	background-color: #D9E2EC;
+	padding-bottom: .75rem;
+
+img{
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+	padding: 2rem;
+	max-width: 20%;
+	max-height: 20%;
+}
+}
+
+@media only screen and (max-width: 40em){
+
+	nav{
+		display:none;
+	}
+
+	header img{
+		max-width: 40%;
+		max-height: 40%;
+	}
+}
+
+nav ul{
+	list-style-type:none;
+	color:#46697D;
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	font-size: 1.2rem;
+
+	li{
+	display: inline;
+	padding-left: .5rem;
+	padding-right: .5rem;
+
+}
+
+	a{
+	text-decoration: none;
+	}
+
+	a:link{
+		color: #46697D;
+	}
+
+	a:visited{
+		color: #46697D;
+	}
+
+	a:hover{
+		color: #FF7BAC;
+	}
+
+}
+
+
