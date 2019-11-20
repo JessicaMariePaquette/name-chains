@@ -20,7 +20,10 @@ main{
 	font-weight: 600i;
 	font-style: italic;
 	text-align:center;
+	@media screen and (min-width: 45em){
 	font-size: 12rem;
+	}
+	font-size: 8rem;
 	width: 50;
 	}
 

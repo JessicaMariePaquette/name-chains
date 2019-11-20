@@ -1,0 +1,62 @@
+.huh{
+	@media screen and (min-width: 55em){
+	display:grid;
+		grid-template-rows: -1fr 1fr 1fr;
+	grid-template-columns:2fr 1fr;
+}
+
+	h2{
+		text-align: center;
+		@media screen and (min-width: 55em){
+		grid-row: 1;
+		grid-column: 1 / span 2;
+
+		}
+
+
+	}
+	img{
+		@media screen and (min-width: 55em){
+		grid-column: 2;
+		grid-row: 2;
+		align-self: center;
+}
+	margin-left: 25%;
+	width: 50%;
+	border-radius: 50px;
+
+
+	
+	}
+
+
+	p{
+		@media screen and (min-width: 55em){
+	 text-align: center;
+	 grid-column: 1;
+		grid-row: 2;
+		
+	}
+	
+
+	}
+
+	#cap{
+		text-align: center;
+		@media screen and (min-width: 55em){
+		grid-column: 1 / span 2;
+		grid-row: 3;
+		margin-left: 3rem;
+	margin-right: 3rem;
+	margin-top: 3rem;
+
+}
+}
+
+	#para{
+
+	margin-left: 3rem;
+	margin-right: 3rem;
+
+	}
+}
